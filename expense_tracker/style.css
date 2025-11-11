@@ -140,7 +140,7 @@ h2 {
   background-color: #a0aec0;
 }
 
-.transaction {
+.transactions {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -166,20 +166,20 @@ h2 {
   }
 }
 
-.transaction:hover {
+.transactions:hover {
   transform: translateX(4px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.transaction.income {
+.transactions.income {
   border-right-color: #059669;
 }
 
-.transaction.expense {
+.transactions.expense {
   border-right-color: #dc2626;
 }
 
-.transaction .delete-btn {
+.transactions .delete-btn {
   background: none;
   border: none;
   color: #dc2626;
@@ -192,11 +192,11 @@ h2 {
   margin-left: 12px;
 }
 
-.transaction:hover .delete-btn {
+.transactions:hover .delete-btn {
   opacity: 1;
 }
 
-.transaction .delete-btn:hover {
+.transactions .delete-btn:hover {
   background-color: #fee2e2;
   transform: scale(1.1);
 }
